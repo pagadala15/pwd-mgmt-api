@@ -151,7 +151,3 @@ How to check if the database is updated with the new password:
 			
 	  Execute query : SELECT * FROM USER_PWD  (to check updated password on the successful API POST call)
  
- 755
- - remove postgres from pom
- 
- usrpwd repo
