@@ -4,7 +4,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
- * Starting of the password management api 
+ * Starting of the password management api
+ * 
  * @author SrinivasuluP
  *
  */

@@ -12,8 +12,8 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 import com.gtree.manage.entity.UserPwd;
 import com.gtree.manage.events.MessagePublisher;
+import com.gtree.manage.model.PasswordResetRequest;
 import com.gtree.manage.repo.UserPwdRepository;
-import com.gtree.manage.vo.PasswordResetRequest;
 
 /**
  * 

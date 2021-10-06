@@ -17,9 +17,9 @@ import org.springframework.http.MediaType;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.web.server.ResponseStatusException;
 
+import com.gtree.manage.model.PasswordResetRequest;
+import com.gtree.manage.model.PasswordResetResponse;
 import com.gtree.manage.service.PasswordManagementService;
-import com.gtree.manage.vo.PasswordResetRequest;
-import com.gtree.manage.vo.PasswordResetResponse;
 
 /**
  * 

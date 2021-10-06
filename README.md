@@ -56,6 +56,7 @@ Assumptions:
 How to run application:
 
 	- Checkout the code and click/execute file:   "run.sh" 	
+	  Note: For Linux users, please change the file permission   ex: chmod 755 run.sh 
 	
 	- Note: a- This script will Compile, Build, Create API Docker Image, Pull ActiveMQ Docker Image,  run both API Docker Image and ActiveMQ Image
 			b- This API will run on port: 8085
@@ -135,7 +136,7 @@ How to check if a new 'Password Reset Event' is created:
 	
 	- Login to the link:  http://localhost:8161/admin/queues.jsp  (admin/admin userid/pwd on the prompt)
 	
-	- This will show increase of the messages/Events in the Queue:"PassWordUpdateQueue" on each successful password reset execution.
+	- This will show increase of the messages/Events in the Queue:"PasswordUpdateQueue" on each successful password reset execution.
 
 
 How to check if the database is updated with the new password: 
@@ -150,3 +151,7 @@ How to check if the database is updated with the new password:
 			
 	  Execute query : SELECT * FROM USER_PWD  (to check updated password on the successful API POST call)
  
+ 755
+ - remove postgres from pom
+ 
+ usrpwd repo
