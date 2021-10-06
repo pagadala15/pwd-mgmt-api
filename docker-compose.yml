@@ -1,0 +1,14 @@
+version: '3.1'
+services:
+  API:
+    image: 'pwd-mgmt-api'
+    ports:
+      - "8085:8085"
+    depends_on:
+      - activemq
+
+  activemq:
+    image: rmohr/activemq
+    ports:
+      - "8161:8161"
+      - "61616:61616"
